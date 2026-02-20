@@ -50,7 +50,7 @@ Privy explores an alternative approach:
 4. ⚙️ Corresponding action executed on system
 5. 💬 Assistant feedback displayed via GUI
 
-This pipeline enables a complete offline interaction loop.
+This pipeline demonstrates an end-to-end on-device speech interaction loop integrating audio capture, recognition, intent mapping, and action execution.
 
 ---
 
