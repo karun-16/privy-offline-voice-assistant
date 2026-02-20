@@ -17,6 +17,8 @@ The goal is to design an on-device assistant capable of executing system actions
 
 This project is being developed iteratively with planned enhancements across desktop and mobile platforms.
 
+---
+
 ## 🚀 Why Privy?
 
 Most voice assistants depend on internet connectivity and cloud processing.
