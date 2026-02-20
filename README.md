@@ -10,6 +10,12 @@ Privy is a fully offline desktop voice assistant built to demonstrate privacy-fi
 It performs speech recognition locally and executes system-level actions while maintaining complete user data privacy.
 
 ---
+## 👤 Author & Context
+
+Privy is an independent project built to explore privacy-first human–computer interaction through offline voice assistants.  
+The goal is to design an on-device assistant capable of executing system actions while maintaining user data locality.
+
+This project is being developed iteratively with planned enhancements across desktop and mobile platforms.
 
 ## 🚀 Why Privy?
 
