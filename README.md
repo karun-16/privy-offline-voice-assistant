@@ -1,5 +1,11 @@
 # 🎙️ Privy — Offline Voice Assistant (V1)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Status](https://img.shields.io/badge/status-active%20development-green)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+
+
 Privy is a fully offline desktop voice assistant built to demonstrate privacy-first AI interaction without relying on cloud services.
 It performs speech recognition locally and executes system-level actions while maintaining complete user data privacy.
 
