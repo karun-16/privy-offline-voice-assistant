@@ -28,22 +28,72 @@ Privy explores an alternative approach:
 
 ---
 
+## 🧠 How Privy Works
+
+1. 🎤 Microphone captures user speech
+2. 🔊 Audio processed locally using Vosk speech recognition
+3. 🧩 Recognized text mapped to command intents
+4. ⚙️ Corresponding action executed on system
+5. 💬 Assistant feedback displayed via GUI
+
+This pipeline enables a complete offline interaction loop.
+
+---
+
+## 🧭 Architecture
+
+```
+User Speech
+    ↓
+🎤 Microphone Capture
+    ↓
+🧠 Vosk Speech Recognition
+    ↓
+🧩 Command / Intent Mapping
+    ↓
+⚙️ Action Execution Engine
+    ↓
+🖥️ GUI Feedback & Status Update
+```
+
+This pipeline represents the offline interaction loop powering Privy.
+
 ## 🏗️ Project Structure
 
 ```
 Privy/
- ├── core/
- ├── actions/
- ├── gui/
- ├── data/
- ├── main.py
+ ├── core/        → assistant logic & orchestration
+ ├── actions/     → executable commands
+ ├── gui/         → desktop interface
+ ├── data/        → assistant resources
+ ├── main.py      → entry point
 ```
+
+---
+
+## 📸 Demo
+
+### Idle State
+
+![Idle](screenshots/screenshot1.png)
+
+### Listening State
+
+![Listening](screenshots/screenshot2.png)
+
+### Real Usage Example
+
+![Usage](screenshots/screenshot3.png)
 
 ---
 
 ## 📦 Installation
 
-### Run from source
+### Option 1 — Installer (Recommended)
+
+Download the installer from the **Releases** section and run setup.
+
+### Option 2 — Run from source
 
 ```
 git clone https://github.com/karun-16/privy-offline-voice-assistant
@@ -54,12 +104,50 @@ python main.py
 
 ---
 
-## 🗺️ Roadmap
+## 🛠️ Tech Stack
 
-✅ V1 — Windows Offline Assistant
-🔄 V2 — Android Port
-🚀 V3 — Optimization & Expansion
+* Python
+* Vosk (Offline Speech Recognition)
+* Tkinter (GUI)
+* Inno Setup (Installer Packaging)
 
 ---
 
-⭐ If you like this project, consider starring the repository.
+## 🗺️ Roadmap
+
+### ✅ V1 — Windows Offline Assistant
+
+* Core assistant engine
+* Offline speech pipeline
+* Desktop GUI
+* Installer packaging
+
+### 🔄 V2 — Android Port
+
+* Core engine adaptation
+* Mobile audio pipeline
+* Background assistant service
+
+### 🚀 V3 — Optimization & Expansion
+
+* Performance improvements
+* Extended command set
+* Modular plugin architecture
+* Enhanced conversational flow
+
+---
+
+## 🤝 Contribution
+
+This project is currently under active development.
+Ideas, feedback, and improvements are welcome.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you find this project interesting, consider starring the repository.
