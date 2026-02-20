@@ -76,6 +76,12 @@ Privy/
 ```
 
 ---
+## 🎬 Demo Video
+
+[![Privy V1 Demo](https://img.youtube.com/vi/4h9gGLNob_Y/0.jpg)](https://youtu.be/4h9gGLNob_Y)
+
+*Click the thumbnail above to watch the demo.*
+
 
 ## 📸 Demo
 
